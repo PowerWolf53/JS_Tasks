@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Oswald'; /*a name to be used later*/
+    src:  url('./fonts/oswald-regular.ttf'); /*URL to font*/
+}
+
+.header{
+    background: #464547;
+    height:60px;
+    display:flex;
+    width:100%;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    height:34px;
+}
+
+.title{
+    font-family: 'Oswald', Arial, sans-serif;
+    color:white;
+    margin-left:5px;
+    margin-top:13px;
+    font-size:17pt;
+}
